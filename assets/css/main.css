@@ -2591,6 +2591,10 @@ h2 span {
   position: relative;
 }
 
+#jcdi-logo-footer {
+  height: 60px;
+}
+
 .footer:before {
   content: "";
   background: rgba(0, 0, 0, 0.8);
