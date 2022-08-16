@@ -75,7 +75,7 @@ h6 {
   height: 60px;
 }
 
-#header .logo {
+/* #header .logo {
   font-size: 34px;
   margin: 0;
   padding: 0;
@@ -84,7 +84,7 @@ h6 {
   letter-spacing: 3px;
   padding-left: 10px;
   border-left: 4px solid #fe9901;
-}
+} */
 
 #header .logo a {
   color: #fff;
