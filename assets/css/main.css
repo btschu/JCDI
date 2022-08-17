@@ -971,6 +971,7 @@ h2 span {
 
 .projects .portfolio-content img {
   transition: 0.3s;
+  height: 350px;
 }
 
 .projects .portfolio-content .portfolio-info {
@@ -1030,9 +1031,9 @@ h2 span {
   opacity: 1;
 }
 
-.projects .portfolio-content:hover img {
+/* .projects .portfolio-content:hover img {
   transform: scale(1.1);
-}
+} */
 
 /*--------------------------------------------------------------
 # Testimonials Section
