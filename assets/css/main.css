@@ -63,8 +63,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   background: rgba(0, 0, 0, 0.9);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 #header.header-transparent {
