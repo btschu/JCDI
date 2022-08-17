@@ -1969,6 +1969,7 @@ h2 span {
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
+  text-align: center;
 }
 
 .hero .info .btn-get-started {
