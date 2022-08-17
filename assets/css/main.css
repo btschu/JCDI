@@ -56,28 +56,6 @@ h6 {
   font-family: var(--font-primary);
 }
 
-#company-name {
-  padding: 64px;
-  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
-  letter-spacing: 7px;
-  -webkit-text-stroke: 1px #ffc732;
-}
-
-@keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 600px;
-  }
-  100% {
-    background-position: 600px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -85,11 +63,12 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   background: rgba(0, 0, 0, 0.9);
-  height: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #header.header-transparent {
-  background: black;
+  background: rgb(78, 76, 76);
   opacity: 0.8;
 }
 
@@ -97,17 +76,6 @@ h6 {
   background: rgba(0, 0, 0, 0.9);
   height: 60px;
 }
-
-/* #header .logo {
-  font-size: 34px;
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  padding-left: 10px;
-  border-left: 4px solid #fe9901;
-} */
 
 #header .logo a {
   color: #fff;
@@ -824,7 +792,7 @@ h2 span {
   content: "";
   height: 100%;
   width: 100%;
-  background: #f0f1f2;
+  background: var(--color-primary);
   border-radius: 50px;
   z-index: 1;
   top: 10px;
@@ -840,7 +808,7 @@ h2 span {
   font-size: 22px;
   position: relative;
   display: inline-block;
-  border-bottom: 4px solid #ebebed;
+  border-bottom: 4px solid var(--color-primary);
   transition: 0.3s;
 }
 
@@ -856,13 +824,13 @@ h2 span {
   color: var(--color-primary);
 }
 
-.services .service-item:hover .icon:before {
+/* .services .service-item:hover .icon:before {
   background: var(--color-primary);
-}
+} */
 
-.services .service-item:hover h3 {
+/* .services .service-item:hover h3 {
   border-color: var(--color-primary);
-}
+} */
 
 /*--------------------------------------------------------------
 # Features Section
@@ -1972,14 +1940,14 @@ h2 span {
 
 .hero .info h2 {
   color: #fff;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
+  /* margin-bottom: 30px; */
+  /* padding-bottom: 30px; */
   font-size: 56px;
   font-weight: 700;
   position: relative;
 }
 
-.hero .info h2:after {
+/* .hero .info h2:after {
   content: "";
   position: absolute;
   display: block;
@@ -1990,7 +1958,7 @@ h2 span {
   right: 0;
   bottom: 0;
   margin: auto;
-}
+} */
 
 @media (max-width: 768px) {
   .hero .info h2 {
@@ -2704,6 +2672,7 @@ h2 span {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  border: 1px solid var(--color-primary);
 }
 
 .footer .footer-content .social-links a:hover {
@@ -2750,7 +2719,7 @@ h2 span {
 
 .footer .footer-legal .copyright {
   padding-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid var(--color-primary);
 }
 
 .footer .footer-legal .credits {
